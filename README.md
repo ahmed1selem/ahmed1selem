@@ -15,7 +15,7 @@ B.Sc. Computer & Automatic Control Engineering, Tanta University (2024)
 ## Featured systems
 
 ### 🎙️ Lisan AI · multi-tenant voice & chat customer-service agent
-*Team of 5, R&D lead · code available on request*
+*Code is private · live demo on request*
 
 An agent that answers a company's customers by chat or by phone in Egyptian Arabic, looks up their orders,
 drafts actions for the customer to confirm, and hands the call to a human agent with the case already written.
@@ -29,8 +29,6 @@ drafts actions for the customer to confirm, and hands the call to a human agent 
 - **Under load:** seat-based admission control; the next caller goes to a human, not a degraded bot
 
 ### 📰 [Briefley](https://github.com/ahmed1selem/brifley/tree/feature/pipeline-refactor) · Arabic & English news intelligence platform
-*Solo build*
-
 Collects news from 20+ outlets and Telegram channels, summarises it in Arabic or English, groups each story
 across sources, and answers questions with citations.
 
@@ -42,8 +40,8 @@ across sources, and answers questions with citations.
 - **App:** FastAPI backend and web UI where users manage their own sources
 
 ### 💬 [Sanad](https://github.com/ahmed1selem/Mental-Health-RAG-Chatbot) · mental-health support chatbot
-*Team of 4 · I integrated the system into one app, built the RAG retrieval, trained the emotion classifier,
-and owned deployment*
+An empathetic support chatbot that reads the user's emotional state first, answers from vetted material
+with citations, and handles a crisis differently from an ordinary question, by text or voice.
 
 - **Retrieval & prompts:** hybrid BM25 + Qdrant with reranking · DSPy/GEPA-compiled prompts · 0.95+
   faithfulness and 0.89+ context recall (RAGAS / DeepEval)
@@ -52,8 +50,6 @@ and owned deployment*
   user text in traces · Locust load tests · fallback vector store
 
 ### 📝 [Dawwen](https://github.com/ahmed1selem/Dawwen) · conversational notes agent (EN/AR)
-*Solo build*
-
 The model proposes, code decides: edits and deletes run only after an explicit yes. One Groq client with key
 rotation and failover, hybrid search inside one SQLite file, a right-to-left Arabic interface, and ~140
 adversarial tests.
