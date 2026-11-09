@@ -28,7 +28,7 @@ drafts actions for the customer to confirm, and hands the call to a human agent 
   brand's SOP documents
 - **Operations:** LangSmith tracing, latency and token-usage telemetry, an admin dashboard and a console for human agents
 
-### 📰 [Briefley](https://github.com/ahmed1selem/brifley/tree/feature/pipeline-refactor) · Arabic & English news intelligence platform
+### 📰 [Briefley](https://github.com/ahmed1selem/brifley) · Arabic & English news intelligence platform
 Collects news from 20+ outlets and Telegram channels, summarises it in Arabic or English, groups each story
 across sources, and answers questions with citations.
 
