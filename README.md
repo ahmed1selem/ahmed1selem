@@ -26,7 +26,7 @@ drafts actions for the customer to confirm, and hands the call to a human agent 
 - **Voice:** Gemini Live speech-to-speech over Twilio phone calls and browser WebRTC, SIP escalation to a human
 - **Multi-tenant:** a new brand is a config file and a knowledge base, generated in Arabic and English from the
   brand's SOP documents
-- **Under load:** seat-based admission control; the next caller goes to a human, not a degraded bot
+- **Operations:** LangSmith tracing, latency and token-usage telemetry, an admin dashboard and a console for human agents
 
 ### 📰 [Briefley](https://github.com/ahmed1selem/brifley/tree/feature/pipeline-refactor) · Arabic & English news intelligence platform
 Collects news from 20+ outlets and Telegram channels, summarises it in Arabic or English, groups each story
